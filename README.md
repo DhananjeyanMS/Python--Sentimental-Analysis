@@ -18,29 +18,3 @@ This project implements a sentiment analysis model using both a Naive Bayes clas
 
 4. **Performance Metrics**:
    - The script outputs evaluation metrics like accuracy, precision, recall, and F1-score to assess model performance for each classification method.
-
-## How to Run
-
-### Prerequisites
-Ensure that you have Python installed, along with the following dependencies:
-- `re` (Regular expressions)
-- `math`
-- `collections`
-- `itertools`
-- Random library
-
-Additionally, you should have the following input files in your working directory:
-- `rt-polarity.pos` - Positive movie reviews
-- `rt-polarity.neg` - Negative movie reviews
-- `nokia-pos.txt` - Positive reviews specific to Nokia
-- `nokia-neg.txt` - Negative reviews specific to Nokia
-- `positive-words.txt` - Predefined list of positive words
-- `negative-words.txt` - Predefined list of negative words
-
-### Running the Code
-1. Clone the repository or download the project files.
-2. Place the required input files in the project directory.
-3. Run the Python script using the following command:
-
-```bash
-python sentiment_analysis.py
